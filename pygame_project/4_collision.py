@@ -171,7 +171,7 @@ while running:
 
             # 무기 rect 정보 업데이트
             weapon_rect = weapon.get_rect()
-            weapon_rect.left = weapon_pos_x
+            weapon_rect.left = weapon_pos_xa
             weapon_rect.top = weapon_pos_y
 
             # 충돌 체크
